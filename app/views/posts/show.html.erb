@@ -1,0 +1,9 @@
+<div class="post">
+      <a href="<%= @post %>">
+        </a>
+          <h3 class="post-subtitle">
+              <%= @post.body %>
+          </h3>
+      <p class="post-meta">Posted by <a href="#"><%= @post.author %></a> on <%= @post.created_at.strftime('%B %d, %Y') %></p>
+  </div>
+  <hr/>
